@@ -1,99 +1,109 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .top-bar {
-    background: linear-gradient(#fff5cc, #ffd700);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-  }
-  
-  .round-button {
-    background-color: #ffc200;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-right: 10px; /* Aggiunto spazio tra i pulsanti */
-  }
-  
-  .shop-button {
-    font-size: 24px;
-    padding: 15px 30px;
-  }
-  
-  .card-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .add-to-cart {
-    background-color: #ffc200;
-    border: none;
-    color: black;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  
-  .article {
-    background: linear-gradient(#fff9e6, #ffd700);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .article-image {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-  }
-  
-  .article-content {
-    text-align: left;
-  }
-  
-  .article-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .article-content p {
-    font-size: 16px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #FCF7E3; /* Colore di sfondo della barra di navigazione */
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Modifica per centrare i bottoni nella barra di navigazione */
+  align-items: center;
+  border-radius: 30px;
+}
+
+.round-button {
+  background-color: #F5DE88; /* Colore di sfondo dei bottoni */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0 12px; /* Aumento del margine orizzontale per aumentare ulteriormente la distanza tra i bottoni */
+}
+
+.shop-button {
+  background-color: #F5DE88; /* Colore di sfondo del pulsante "SHOP" */
+  font-size: 24px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.shop-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background-color: #FCF7E3; /* Colore di sfondo delle card */
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.add-to-cart {
+  background-color: #F5DE88; /* Colore di sfondo del pulsante "Add to cart" */
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: auto;
+}
+
+.article {
+  background-color: #FCF7E3; /* Colore di sfondo dell'articolo */
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.article-image {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.article-content {
+  text-align: left;
+}
+
+.article-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article-content p {
+  font-size: 16px;
+}
