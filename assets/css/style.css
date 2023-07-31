@@ -1,3 +1,5 @@
+/* style.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,16 +7,16 @@ body {
 }
 
 .top-bar {
-  background-color: #FCF7E3; /* Colore di sfondo della barra di navigazione */
+  background-color: #FCF7E3;
   padding: 10px;
   display: flex;
-  justify-content: center; /* Modifica per centrare i bottoni nella barra di navigazione */
+  justify-content: center;
   align-items: center;
   border-radius: 30px;
 }
 
 .round-button {
-  background-color: #F5DE88; /* Colore di sfondo dei bottoni */
+  background-color: #F5DE88;
   border: none;
   color: black;
   padding: 10px 20px;
@@ -24,11 +26,11 @@ body {
   font-size: 16px;
   cursor: pointer;
   border-radius: 20px;
-  margin: 0 12px; /* Aumento del margine orizzontale per aumentare ulteriormente la distanza tra i bottoni */
+  margin: 0 12px;
 }
 
 .shop-button {
-  background-color: #F5DE88; /* Colore di sfondo del pulsante "SHOP" */
+  background-color: #F5DE88;
   font-size: 24px;
   padding: 15px 30px;
   display: flex;
@@ -49,7 +51,7 @@ body {
 
 .card {
   border: 1px solid #ccc;
-  background-color: #FCF7E3; /* Colore di sfondo delle card */
+  background-color: #FCF7E3;
   border-radius: 20px;
   padding: 20px;
   width: 250px;
@@ -65,7 +67,7 @@ body {
 }
 
 .add-to-cart {
-  background-color: #F5DE88; /* Colore di sfondo del pulsante "Add to cart" */
+  background-color: #F5DE88;
   border: none;
   color: black;
   padding: 5px 10px;
@@ -79,24 +81,22 @@ body {
 }
 
 .article {
-  background-color: #FCF7E3; /* Colore di sfondo dell'articolo */
+  background-color: #FCF7E3;
   margin-top: 20px;
   padding: 20px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  border-radius: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
 }
 
 .article-image {
-  width: 400px;
+  width: var(--imagewidth);
   height: auto;
   border-radius: 20px;
-  margin-right: 20px;
 }
 
 .article-content {
-  text-align: left;
+  flex-basis: 50%;
 }
 
 .article-content h2 {
@@ -106,4 +106,9 @@ body {
 
 .article-content p {
   font-size: 16px;
+}
+
+.imgFooter {
+  width: var(--imagewidth);
+  height: auto;
 }
